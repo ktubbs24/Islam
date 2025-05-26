@@ -1,13 +1,21 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "My Islamic Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#2DA65F", // Green from Lovable (--primary: 142 65% 40%)
+    "light": "#E6F3EA", // Light green from Lovable
+    "dark": "#1A3C34" // Dark green for dark mode
+  },
+  "typography": {
+    "fontFamily": "Arial, sans-serif", // Match Lovable’s font-sans
+    "codeFontFamily": "monospace"
   },
   "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
   "navigation": {
     "tabs": [
       {
@@ -17,39 +25,15 @@
             "group": "Get Started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "prayer-times",
+              "quran"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "About",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "about",
+              "contact"
             ]
           }
         ]
@@ -74,10 +58,6 @@
         }
       ]
     }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
   },
   "navbar": {
     "links": [
