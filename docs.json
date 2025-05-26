@@ -24,7 +24,7 @@
           {
             "group": "Essentials",
             "pages": [
-              "essentials/test/my test here",
+              "essentials/test/my-test-here",
               "essentials/markdown",
               "essentials/code",
               "essentials/images",
